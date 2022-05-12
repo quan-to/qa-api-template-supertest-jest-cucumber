@@ -1,0 +1,136 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests/integrations/stepdefs/sample_test_promise.sd.js",
+    "children" : [ {
+      "name" : "",
+      "uid" : "fbbd70497b591bc9",
+      "parentUid" : "c8554a54cff84a6aa91be9872fd0ec24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359465323,
+        "stop" : 1652359465325,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c8554a54cff84a6aa91be9872fd0ec24"
+  }, {
+    "name" : "Sample test",
+    "children" : [ {
+      "name" : "Validate user details",
+      "uid" : "37370017a8049d35",
+      "parentUid" : "5768481f03f51fae82018e78b5ceee5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359465326,
+        "stop" : 1652359466026,
+        "duration" : 700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate new user creation",
+      "uid" : "6b21e4d4fc0aaf9b",
+      "parentUid" : "5768481f03f51fae82018e78b5ceee5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359466027,
+        "stop" : 1652359466713,
+        "duration" : 686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate User data update",
+      "uid" : "4ef0cbda4374c7d0",
+      "parentUid" : "5768481f03f51fae82018e78b5ceee5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359466713,
+        "stop" : 1652359467681,
+        "duration" : 968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate the update of some user data",
+      "uid" : "7cc3d6263ec2bfc8",
+      "parentUid" : "5768481f03f51fae82018e78b5ceee5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359467681,
+        "stop" : 1652359468180,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validate the user deletion",
+      "uid" : "700cd971697b447b",
+      "parentUid" : "5768481f03f51fae82018e78b5ceee5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359468180,
+        "stop" : 1652359468710,
+        "duration" : 530
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5768481f03f51fae82018e78b5ceee5b"
+  }, {
+    "name" : "tests/integrations/stepdefs/re_using.sd.js",
+    "children" : [ {
+      "name" : "",
+      "uid" : "70fa1446b9bb409d",
+      "parentUid" : "9deff48126c31f900fdd8f3b5498fe4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359468930,
+        "stop" : 1652359468934,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9deff48126c31f900fdd8f3b5498fe4e"
+  } ],
+  "name" : "suites"
+}

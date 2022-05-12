@@ -1,0 +1,32 @@
+{
+  "name": "supertest-jest-api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --debug --detectOpenHandles --expand --notify --verbose",
+    "full": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --detectOpenHandles --expand --notify --verbose; cd jest-reports/allure-jest/; allure generate && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "babel-jest": "^28.1.0",
+    "jasmine": "^4.1.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jest": "^28.1.0",
+    "jest-allure": "^0.1.3",
+    "jest-circus": "^28.1.0",
+    "jest-cli": "^28.1.0",
+    "jest-extended": "^2.0.0",
+    "jest-html-reporter": "^3.5.0",
+    "jest-html-reporters": "^3.0.6",
+    "jest-jasmine2": "^28.1.0",
+    "jest-stare": "^2.4.1",
+    "superagent": "^7.1.3",
+    "superagent-retry": "^0.6.0",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.2"
+  }
+}

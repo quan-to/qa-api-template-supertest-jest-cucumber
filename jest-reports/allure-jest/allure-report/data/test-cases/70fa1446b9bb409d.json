@@ -1,0 +1,50 @@
+{
+  "uid" : "70fa1446b9bb409d",
+  "name" : "",
+  "fullName" : "tests/integrations/stepdefs/re_using.sd.js.",
+  "historyId" : "681f9f9a8e953df68b7b594e5ced96ec",
+  "time" : {
+    "start" : 1652359468930,
+    "stop" : 1652359468934,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "tests/integrations/stepdefs/re_using.sd.js"
+  }, {
+    "name" : "testClass",
+    "value" : "tests/integrations/stepdefs/re_using.sd.js"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "tests/integrations/stepdefs/re_using.sd.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70fa1446b9bb409d.json",
+  "parameterValues" : [ ]
+}

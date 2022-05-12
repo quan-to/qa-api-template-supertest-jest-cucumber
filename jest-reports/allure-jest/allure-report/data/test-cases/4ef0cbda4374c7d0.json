@@ -1,0 +1,63 @@
+{
+  "uid" : "4ef0cbda4374c7d0",
+  "name" : "Validate User data update",
+  "fullName" : "Sample test.Validate User data update",
+  "historyId" : "58822d089f3d1691869589bc9ab0b34f",
+  "time" : {
+    "start" : 1652359466713,
+    "stop" : 1652359467681,
+    "duration" : 968
+  },
+  "description" : "Validate User data update",
+  "descriptionHtml" : "<p>Validate User data update</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "story",
+    "value" : "HIST-003"
+  }, {
+    "name" : "testId",
+    "value" : "CT-003"
+  }, {
+    "name" : "suite",
+    "value" : "Sample test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate User data update"
+  }, {
+    "name" : "package",
+    "value" : "Sample test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "CT-003",
+    "url" : "CT-003",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ef0cbda4374c7d0.json",
+  "parameterValues" : [ ]
+}

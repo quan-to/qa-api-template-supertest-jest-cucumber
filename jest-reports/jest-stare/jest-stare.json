@@ -1,0 +1,17 @@
+{
+  "additionalResultsProcessors": [],
+  "coverageLink": "../../jest-reports/jest-simple-report/index.html",
+  "disableCharts": false,
+  "hideFailing": false,
+  "hidePassing": false,
+  "hidePending": false,
+  "log": true,
+  "jestGlobalConfigJson": "globalStuff.json",
+  "jestStareConfigJson": "jest-stare.json",
+  "reportHeadline": "Report Headline",
+  "reportSummary": true,
+  "reportTitle": "Jest Stare Report",
+  "resultHtml": "index.html",
+  "resultJson": "jest-results.json",
+  "resultDir": "jest-reports/jest-stare/"
+}

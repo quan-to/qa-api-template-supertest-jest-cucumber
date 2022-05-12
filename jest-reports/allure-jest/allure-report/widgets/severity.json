@@ -1,0 +1,71 @@
+[ {
+  "uid" : "7cc3d6263ec2bfc8",
+  "name" : "Validate the update of some user data",
+  "time" : {
+    "start" : 1652359467681,
+    "stop" : 1652359468180,
+    "duration" : 499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ef0cbda4374c7d0",
+  "name" : "Validate User data update",
+  "time" : {
+    "start" : 1652359466713,
+    "stop" : 1652359467681,
+    "duration" : 968
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "37370017a8049d35",
+  "name" : "Validate user details",
+  "time" : {
+    "start" : 1652359465326,
+    "stop" : 1652359466026,
+    "duration" : 700
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "70fa1446b9bb409d",
+  "name" : "",
+  "time" : {
+    "start" : 1652359468930,
+    "stop" : 1652359468934,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b21e4d4fc0aaf9b",
+  "name" : "Validate new user creation",
+  "time" : {
+    "start" : 1652359466027,
+    "stop" : 1652359466713,
+    "duration" : 686
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fbbd70497b591bc9",
+  "name" : "",
+  "time" : {
+    "start" : 1652359465323,
+    "stop" : 1652359465325,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "700cd971697b447b",
+  "name" : "Validate the user deletion",
+  "time" : {
+    "start" : 1652359468180,
+    "stop" : 1652359468710,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+} ]

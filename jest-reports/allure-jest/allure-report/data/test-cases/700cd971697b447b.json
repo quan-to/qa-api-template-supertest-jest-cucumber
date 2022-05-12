@@ -1,0 +1,63 @@
+{
+  "uid" : "700cd971697b447b",
+  "name" : "Validate the user deletion",
+  "fullName" : "Sample test.Validate the user deletion",
+  "historyId" : "c0641f9a01ae2b7dc8ee7426dfdd4530",
+  "time" : {
+    "start" : 1652359468180,
+    "stop" : 1652359468710,
+    "duration" : 530
+  },
+  "description" : "Validate the user deletion",
+  "descriptionHtml" : "<p>Validate the user deletion</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "story",
+    "value" : "HIST-005"
+  }, {
+    "name" : "testId",
+    "value" : "CT-005"
+  }, {
+    "name" : "suite",
+    "value" : "Sample test"
+  }, {
+    "name" : "testClass",
+    "value" : "Sample test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate the user deletion"
+  }, {
+    "name" : "package",
+    "value" : "Sample test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "CT-005",
+    "url" : "CT-005",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "700cd971697b447b.json",
+  "parameterValues" : [ ]
+}

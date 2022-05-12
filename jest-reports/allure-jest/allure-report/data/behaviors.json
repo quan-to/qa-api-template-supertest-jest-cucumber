@@ -1,0 +1,144 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "",
+    "uid" : "fbbd70497b591bc9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652359465323,
+      "stop" : 1652359465325,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "HIST-001",
+    "children" : [ {
+      "name" : "Validate user details",
+      "uid" : "37370017a8049d35",
+      "parentUid" : "e0a6841afbcfa835544aa16581c00872",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359465326,
+        "stop" : 1652359466026,
+        "duration" : 700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e0a6841afbcfa835544aa16581c00872"
+  }, {
+    "name" : "HIST-002",
+    "children" : [ {
+      "name" : "Validate new user creation",
+      "uid" : "6b21e4d4fc0aaf9b",
+      "parentUid" : "5193543c44d80a62ab1b195d6259b1ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359466027,
+        "stop" : 1652359466713,
+        "duration" : 686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5193543c44d80a62ab1b195d6259b1ae"
+  }, {
+    "name" : "HIST-003",
+    "children" : [ {
+      "name" : "Validate User data update",
+      "uid" : "4ef0cbda4374c7d0",
+      "parentUid" : "d2774c570d804fe4491a27510e24bf94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359466713,
+        "stop" : 1652359467681,
+        "duration" : 968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d2774c570d804fe4491a27510e24bf94"
+  }, {
+    "name" : "HIST-004",
+    "children" : [ {
+      "name" : "Validate the update of some user data",
+      "uid" : "7cc3d6263ec2bfc8",
+      "parentUid" : "83fd23ac80f411ff54d1ae5526439fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359467681,
+        "stop" : 1652359468180,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "83fd23ac80f411ff54d1ae5526439fb0"
+  }, {
+    "name" : "HIST-005",
+    "children" : [ {
+      "name" : "Validate the user deletion",
+      "uid" : "700cd971697b447b",
+      "parentUid" : "730143aa1c95d96c7e641f3a9ef12c11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359468180,
+        "stop" : 1652359468710,
+        "duration" : 530
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "730143aa1c95d96c7e641f3a9ef12c11"
+  }, {
+    "name" : "",
+    "uid" : "70fa1446b9bb409d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652359468930,
+      "stop" : 1652359468934,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
