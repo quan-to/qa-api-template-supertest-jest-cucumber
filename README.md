@@ -13,9 +13,11 @@ Para a documentação, utilizamos BDD e a biblioteca jest-cucumber para nos auxi
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você já instalou o node? Caso não tenha instalado, baixe o .pkg e siga as instruções do link abaixo:
+* Você já instalou o node? Caso não tenha instalado, baixe o .pkg (Mac OS) | .deb (Linux/Ubuntu) e siga as instruções no link abaixo:
 
   [Instalando o npm e node no Windows e no Mac](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac)
+
+  [Instalando o node no Linux Ubuntu](https://www.geeksforgeeks.org/installation-of-node-js-on-linux/)
 
 
 ## 🚀 Instalando dependências
@@ -53,6 +55,21 @@ npm run test ou npm run full
 No **npm run test** serão executados todos os testes e o modo debug estará ativado *(vide jest.config.js)*. Os relatórios gerados ficarão dispostos na pasta **jest-reports**.
 
 Ao executar o **npm run full**, o relatório **allure-jest** abrirá automaticamente no seu navegador padrão.
+
+## 🏢 A estrutura
+
+```
+.
+├── sources
+|   ├── config
+|   ├── jest-allure
+|   ├── target
+|   └── tests
+|       ├── api
+|       ├── data
+|       ├── features
+|       └── steps
+```
 
 ## 📫 Contribuindo para o template supertest-jest-cucumber
 
