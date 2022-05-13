@@ -27,13 +27,13 @@ Linux e macOS:
 Para esse contexto, iremos usar apenas os comandos de instalação das dependências:
 
 ```
-npm i
+npm i ou npm i -D
 ```
 
 Caso você receba uma mensagem de <¡Erro!>, execute o comando dessa forma:
 
 ```
-npm i -f
+npm i -f ou npm install --force
 ```
 
 Se um problema de vulnerabilidade qualquer for apresentado, utilize o seguinte comando:
@@ -51,6 +51,7 @@ npm run test ou npm run full
 ```
 
 No **npm run test** serão executados todos os testes e o modo debug estará ativado *(vide jest.config.js)*. Os relatórios gerados ficarão dispostos na pasta **jest-reports**.
+
 Ao executar o **npm run full**, o relatório **allure-jest** abrirá automaticamente no seu navegador padrão.
 
 ## 📫 Contribuindo para o template supertest-jest-cucumber
