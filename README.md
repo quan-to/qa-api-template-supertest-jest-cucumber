@@ -1,7 +1,7 @@
 # Template para testes unitários e api utilizando Jest-Cucumber
 
 <div align="center">
-  <img src="config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:50%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:50%;" />
+  <img src="config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:75%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:75%;" />
 </div>
 
 ## 📋 Introdução
