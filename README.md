@@ -1,56 +1,63 @@
-# qa-api-template-supertest-jest-cucumber
-
-<!-- Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença usando esse link. -->
-
-![Shield Size Style](https://shields.io/badge/style-for--the--badge-green?logo=appveyor&style=for-the-badge)
-
-#### 👆 Para visualizar um exemplo prático e bem apresentado de como ficam os escudos/badges (exemplo acima) aplicados ao repositório, segue o link: 👉 https://github.com/iuricode/README-template/blob/main/README-repository/iuricode.md
+# Template para testes unitários e api utilizando Jest-Cucumber
 
 <div align="center">
-  <img src="exemplo-image.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:50%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:25%;" />
+  <img src="config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:50%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:50%;" />
 </div>
 
-## 📋 Introdução ou Descrição
+## 📋 Introdução
 
-Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas tendem a ignorar conteúdos longos.
+Esse projeto é um template para testes utilizando o Jest e seus facilitadores. Aqui, temos exemplos de testes em uma API usando Supertest.
+Para a documentação, utilizamos BDD e a biblioteca jest-cucumber para nos auxiliar na escrita.
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!-- Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário. -->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+
+* Você já instalou o node? Caso não tenha instalado, baixe o .pkg e siga as instruções do link abaixo:
+
+  [Instalando o npm e node no Windows e no Mac](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac)
+
 
 ## 🚀 Instalando dependências
 
-Para instalar as dependências do <nome_do_projeto>, siga a(s) instrução/instruções abaixo:
+Para instalar as dependências desse projeto, siga a(s) instrução/instruções abaixo:
 
 Linux e macOS:
-```
-<comando_de_instalação>
-```
 
-Windows:
-```
-<comando_de_instalação>
-```
-
-## ☕ Como usar o <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
+Para esse contexto, iremos usar apenas os comandos de instalação das dependências:
 
 ```
-<exemplo_de_uso>
+npm i
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis.
+Caso você receba uma mensagem de <¡Erro!>, execute o comando dessa forma:
 
-## 📫 Contribuindo para o <nome_do_projeto>
-<!-- Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado. -->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+```
+npm i -f
+```
 
-1. Bifurque este repositório.
+Se um problema de vulnerabilidade qualquer for apresentado, utilize o seguinte comando:
+
+```
+npm audit fix -f
+```
+
+## ☕ Como usar o projeto
+
+Para executar esse template, siga estas etapas:
+
+```
+npm run test ou npm run full
+```
+
+No **npm run test** serão executados todos os testes e o modo debug estará ativado *(vide jest.config.js)*. Os relatórios gerados ficarão dispostos na pasta **jest-reports**.
+Ao executar o **npm run full**, o relatório **allure-jest** abrirá automaticamente no seu navegador padrão.
+
+## 📫 Contribuindo para o template supertest-jest-cucumber
+
+Para contribuir com esse template, siga as seguintes etapas:
+
+1. Bifurque este repositório (realize um fork conforme instruções da [github](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
 2. Crie um branch: `git checkout -b <nome_branch>`.
 3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
 4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
@@ -66,28 +73,37 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td valign="middle" align="center">
       <a href="#">
-        <img src="https://blog-geek-midia.s3.amazonaws.com/wp-content/uploads/2022/04/05165526/empresas-que-contratam-para-trabalhar-na-internet.jpg" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Profissional de Tecnologia" />
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG41epk2mj-RA/profile-displayphoto-shrink_800_800/0/1599225738665?e=1657756800&v=beta&t=OUcKl-_yTg-FehHy-G6mpS2SHe0RWVuATgT7wCr6WTc" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Anderson" />
         <br>
         <sub>
-          <b>Nome e Sobrenome</b>
+          <b>Anderson Patricio</b>
         </sub>
       </a>
     </td>
     <td valign="middle" align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Mark Zuckerberg" />
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHHnsYz_HVGiA/profile-displayphoto-shrink_800_800/0/1642425552192?e=1657756800&v=beta&t=iobud7evOPUhrL88L7xbnnfG4_GNy58-bLy7unEOO9k" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Lucas" />
         <br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Lucas Nunes</b>
         </sub>
       </a>
     </td>
     <td valign="middle" align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Steve Jobs" />
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFIsrMjui3S8g/profile-displayphoto-shrink_800_800/0/1647272959586?e=1657756800&v=beta&t=OipqtqiRFgBal2vX844XLWnDgdwXERtAGTHhMPUS8i0" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Niky Lima" />
         <br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Niky Lima</b>
+        </sub>
+      </a>
+    </td>
+    <td valign="middle" align="center">
+      <a href="#">
+        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFBRg06wcv4uA/profile-displayphoto-shrink_800_800/0/1649876906199?e=1657756800&v=beta&t=bg9AZm4vGwj9Imn0guFlM-h60-ohsOdDR0vcVfrljRs" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Roni Garcia" />
+        <br>
+        <sub>
+          <b>Roni Garcia</b>
         </sub>
       </a>
     </td>
@@ -96,64 +112,20 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 😄 Seja um dos contribuidores
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-## Como usar os Cards? :monocle_face:
-
-Como usar? É simples! Copie e cole em seu conteúdo de markdown e pronto.
-
-Altere o `username` para o nome de usuário do GitHub.
-
-```md
-[![card](https://github-readme-stats.vercel.app/api?username=github_username&theme=default)](https://github.com/devqasp/)
-```
-
-[![devqasp](https://github-readme-stats.vercel.app/api?username=devqasp&theme=default)](https://github.com/devqasp/)
-
-### Adicionando icones :thumbsup:
-
-```md
-[![card](https://github-readme-stats.vercel.app/api?username=github_username&theme=default&show_icons=true)](https://github.com/devqasp/)
-```
-
-[![devqasp](https://github-readme-stats.vercel.app/api?username=devqasp&theme=default&show_icons=true)](https://github.com/devqasp/)
-
-### Mostrar Linguagens
-
-```md
-[![card](https://github-readme-stats.vercel.app/api/top-langs/?username=github_username&hide=html&layout=compact&theme=default)](https://github.com/devqasp/)
-```
-
-[![devqasp](https://github-readme-stats.vercel.app/api/top-langs/?username=devqasp&hide=html&layout=compact&theme=default)](https://github.com/devqasp/)
-
-### ou
-
-```md
-[![card](https://github-readme-stats.vercel.app/api/top-langs/?username=github_username&hide=html&layout=compact=true&theme=default)](https://github.com/devqasp/)
-```
-
-[![devqasp](https://github-readme-stats.vercel.app/api/top-langs/?username=devqasp&hide=html&layout=compact=true&theme=default)](https://github.com/devqasp/)
-
-### Exemplo utilizando o tema Cobalt
+Fique à vontade para contribuir nesse projeto! Clone, crie sua branch e seja feliz!
 
 <div style="align-items: center; display: block; justify-content: center; padding: 10px; text-align: center;">
   <div style="float: left; margin: 0 auto; margin-bottom:15px; margin-top:15px; text-align: middle; width: 40%;">
-  <!-- É necessário manter o pulo de linha para que o link funcione dentro de uma tag. -->
   
-  [![demo](https://github-readme-stats.vercel.app/api?username=devqasp&theme=cobalt)](https://github.com/quan-to/)
+  [![demo](https://github-readme-stats.vercel.app/api?username=devqasp&count_private=true&theme=cobalt&show_icons=true)](https://github.com/quan-to/)
   </div>
   <div style="float: left; margin: 0 auto; margin-bottom:15px; margin-top:15px; text-align: middle; width: 40%;">
-  <!-- É necessário manter o pulo de linha para que o link funcione dentro de uma tag. -->
 
-  [![demo](https://github-readme-stats.vercel.app/api/top-langs/?username=devqasp&hide=html&layout=compact&theme=cobalt)](https://github.com/quan-to/)
+  [![demo](https://github-readme-stats.vercel.app/api/top-langs/?username=devqasp&count_private=true&hide=c,c%2B%2B,css,html,java,php,powershell,python,xslt&layout=compact&theme=cobalt)](https://github.com/quan-to/)
   </div>
 </div>
 <br />
 
-[⬆ Voltar ao topo](#nome-do-projeto)
+[⬆ Voltar ao topo](#qa-api-template-supertest-jest-cucumber)
 
 ---
