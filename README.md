@@ -111,7 +111,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores
+## 😎 Seja um dos contribuidores
 
 Fique à vontade para contribuir nesse projeto! Clone, crie sua branch e seja feliz!
 
