@@ -73,7 +73,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td valign="middle" align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/anderson-patricio-88280671/">
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG41epk2mj-RA/profile-displayphoto-shrink_800_800/0/1599225738665?e=1657756800&v=beta&t=OUcKl-_yTg-FehHy-G6mpS2SHe0RWVuATgT7wCr6WTc" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Anderson" />
         <br>
         <sub>
@@ -82,7 +82,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td valign="middle" align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/lucasnunesr/">
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHHnsYz_HVGiA/profile-displayphoto-shrink_800_800/0/1642425552192?e=1657756800&v=beta&t=iobud7evOPUhrL88L7xbnnfG4_GNy58-bLy7unEOO9k" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Lucas" />
         <br>
         <sub>
@@ -91,7 +91,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td valign="middle" align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/palleta/">
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFIsrMjui3S8g/profile-displayphoto-shrink_800_800/0/1647272959586?e=1657756800&v=beta&t=OipqtqiRFgBal2vX844XLWnDgdwXERtAGTHhMPUS8i0" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Niky Lima" />
         <br>
         <sub>
@@ -100,7 +100,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td valign="middle" align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/roni-garcia-b52a972b/">
         <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFBRg06wcv4uA/profile-displayphoto-shrink_800_800/0/1649876906199?e=1657756800&v=beta&t=bg9AZm4vGwj9Imn0guFlM-h60-ohsOdDR0vcVfrljRs" style="width:100px; height:100px; background-color:black; text-align:center; vertical-align:middle;" alt="Foto do Roni Garcia" />
         <br>
         <sub>
