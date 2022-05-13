@@ -108,3 +108,6 @@ package-lock.json
 
 # .DS_Store file
 .DS_Store
+
+# jest-reports folder
+jest-reports/
