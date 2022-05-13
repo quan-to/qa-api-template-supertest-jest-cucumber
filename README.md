@@ -1,4 +1,4 @@
-# Template para testes unitários e api utilizando Jest-Cucumber
+# Template para testes unitários e api utilizando Supertest + Jest-Cucumber
 
 <div align="center">
   <img src="config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:75%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:75%;" />
@@ -126,6 +126,6 @@ Fique à vontade para contribuir nesse projeto! Clone, crie sua branch e seja fe
 </div>
 <br />
 
-[⬆ Voltar ao topo](#qa-api-template-supertest-jest-cucumber)
+[⬆ Voltar ao topo](#Template-para-testes-unitários-e-api-utilizando-Supertest-+-Jest-Cucumber)
 
 ---
