@@ -109,5 +109,8 @@ package-lock.json
 # .DS_Store file
 .DS_Store
 
+# allure-report folder
+allure-report/
+
 # jest-reports folder
 jest-reports/
