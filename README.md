@@ -71,6 +71,16 @@ Ao executar o **npm run full**, o relatório **allure-jest** abrirá automaticam
 |       └── steps
 ```
 
+ℹ️ Os relatórios são gerados uma pasta acima **(diretório raíz, antes da sources)** e estão dispostos na pasta jest-reports. São eles:
+
+```
+╒ jest-allure (main report)
+╞ jest-coverage
+╞ jest-html-reporters
+╞ jest-simple-report (jest-report (default))
+╘ jest-stare
+```
+
 ## 📫 Contribuindo para o template supertest-jest-cucumber
 
 Para contribuir com esse template, siga as seguintes etapas:
@@ -143,6 +153,20 @@ Fique à vontade para contribuir nesse projeto! Clone, crie sua branch e seja fe
   </div>
 </div>
 <br />
+
+## Links úteis
+
+[↳ Jest-Cucumber](https://github.com/bencompton/jest-cucumber)
+
+[↳ Jest-Cucumber-Fusion](https://github.com/b-yond-infinite-network/jest-cucumber-fusion)
+
+[↳ Projetos da comunidade fomentadora do Jest](https://github.com/jest-community)
+
+[↳ Projeto utilizando Supertest](https://github.com/rsaccoll/sample-supertest)
+
+[↳ Projeto utilizando Supertest + Jest](https://github.com/prasadmudedla/supertest-jest)
+
+[↳ Todos os relatórios integrados com Jest](https://www.npmtrends.com/jest-allure-vs-jest-html-reporter-vs-jest-html-reporters-vs-jest-junit-reporter-vs-jest-silent-reporter-vs-jest-stare-vs-mochawesome-report-generator)
 
 [⬆ Voltar ao topo](#Template-Supertest-e-Jest-Cucumber)
 
