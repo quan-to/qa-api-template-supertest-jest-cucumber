@@ -1,5 +1,6 @@
 module.exports = {
     bail: true,
+    coverageDirectory: `<rootDir>/jest-reports/jest-coverage`,
     coveragePathIgnorePatterns: [
         `<rootDir>/node_modules/`
     ],
@@ -17,7 +18,7 @@ module.exports = {
                 'includeConsoleLog': true,
                 'includeFailureMsg': true,
                 'includeSuiteFailure': true,
-                'logo': `../../config/img/robot.png`,
+                'logo': `../../sources/config/img/robot.png`,
                 'outputPath': `jest-reports/jest-simple-report/index.html`,
                 'pageTitle': `Jest Simple Report`,
                 'sort': `default`,
@@ -31,10 +32,10 @@ module.exports = {
             {
                 'expand': true,
                 'filename': `report.html`,
-                'logoImgPath': `./config/img/robot.png`,
+                'logoImgPath': `./sources/config/img/robot.png`,
                 'openReport': false,
                 'pageTitle': `Jest HTML Reporters`,
-                'publicPath': `./jest-reports`
+                'publicPath': `./jest-reports/jest-html-reporters`
             }
         ],
         [
@@ -71,7 +72,7 @@ module.exports = {
     preset: `ts-jest`,
     setupFilesAfterEnv: [
         `jest-allure/dist/setup`,
-        '<rootDir>/jest-allure/dist/setup/testSetup.js'
+        '<rootDir>/sources/jest-allure/dist/setup/testSetup.js'
     ],
     testEnvironment: `node`,
     testMatch: [
