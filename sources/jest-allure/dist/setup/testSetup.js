@@ -1,3 +1,3 @@
 reporter.allure.setOptions({
-    targetDir: `jest-reports/allure-jest/allure-results`
+    targetDir: `jest-reports/jest-allure/allure-results`
 })
