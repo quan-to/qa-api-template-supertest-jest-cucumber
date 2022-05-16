@@ -75,7 +75,7 @@ module.exports = {
     ],
     testEnvironment: `node`,
     testMatch: [
-        `**/*.sd.js`
+        `**/?(*.)+(spec|stepd|test).[tj]s?(x)`
     ],
     testPathIgnorePatterns: [
         `/node_modules/`
