@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --debug --detectOpenHandles --expand --notify --verbose",
-    "full": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --detectOpenHandles --expand --notify --verbose; cd jest-reports/allure-jest/; allure generate && allure open"
+    "test": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --debug --detectOpenHandles --expand --forceExit --notify --verbose",
+    "full": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --expand --forceExit --notify --verbose; cd jest-reports/allure-jest/; allure generate && allure open"
   },
   "keywords": [],
   "author": "",
