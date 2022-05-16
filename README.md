@@ -168,6 +168,8 @@ Fique à vontade para contribuir nesse projeto! Clone, crie sua branch e seja fe
 
 [↳ Todos os relatórios integrados com Jest](https://www.npmtrends.com/jest-allure-vs-jest-html-reporter-vs-jest-html-reporters-vs-jest-junit-reporter-vs-jest-silent-reporter-vs-jest-stare-vs-mochawesome-report-generator)
 
+<br />
+
 [⬆ Voltar ao topo](#Template-Supertest-e-Jest-Cucumber)
 
 ---
