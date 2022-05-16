@@ -75,7 +75,8 @@ module.exports = {
     ],
     testEnvironment: `node`,
     testMatch: [
-        `**/?(*.)+(spec|stepd|test).[tj]s?(x)`
+        `**/?(*.)+(spec|stepd|test).[tj]s?(x)`,
+        `**/tests/**/*.js?(x),**/?(*.)+(spec|stepd|test).[tj]s?(x)`
     ],
     testPathIgnorePatterns: [
         `/node_modules/`
