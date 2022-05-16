@@ -13,9 +13,11 @@ Para a documentação, utilizamos BDD e a biblioteca jest-cucumber para nos auxi
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você já instalou o node? Caso não tenha instalado, baixe o .pkg (Mac OS) | .deb (Linux/Ubuntu) e siga as instruções no link abaixo:
+* Você já instalou o node? Caso não tenha instalado, baixe .pkg **(Mac OS)** e siga as instruções no link abaixo:
 
   [Instalando o npm e node no Windows e no Mac](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac)
+
+* Caso esteja usando uma distribuição **Linux Ubuntu**, segue: 
 
   [Instalando o node no Linux Ubuntu](https://www.geeksforgeeks.org/installation-of-node-js-on-linux/)
 
