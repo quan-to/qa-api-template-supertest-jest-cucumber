@@ -10,7 +10,7 @@ export const givenISendAMessage = (given) => {
     given(/^I send a message (.*)$/, message => {
         demo = new Demo()
         expect(demo).not.toBeNull()
-        msg = message
+        msg  = message
         expect(msg).not.toBe(``)
     })
 }
