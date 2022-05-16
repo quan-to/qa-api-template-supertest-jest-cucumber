@@ -1,7 +1,7 @@
 # Template Supertest e Jest-Cucumber
 
 <div align="center">
-  <img src="config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:75%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:75%;" />
+  <img src="sources/config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:75%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:75%;" />
 </div>
 
 ## 📋 Introdução
