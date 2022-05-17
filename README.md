@@ -46,12 +46,13 @@ Se um problema de vulnerabilidade qualquer for apresentado, utilize o seguinte c
 npm audit fix -f
 ```
 
-## ☕ Como usar o projeto
+## ☕ Como utilizar o projeto
 
 Para executar esse template, siga estas etapas:
 
 ```
-npm run test ou npm run full
+npm run test <-- Para executar esse comando, no arquivo package.json, remova a instrução --detectOpenHandles ou execute:
+npm run full
 ```
 
 No **npm run test** serão executados todos os testes e o modo debug estará ativado *(vide jest.config.js)*. Os relatórios gerados ficarão dispostos na pasta **jest-reports**.
