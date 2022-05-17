@@ -1,7 +1,7 @@
 # Template Supertest e Jest-Cucumber
 
 <div align="center">
-  <img src="config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:75%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:75%;" />
+  <img src="sources/config/img/valores.png" alt="exemplo imagem" style="border: 5px solid #555; display: block; height:75%; margin: 0 auto; margin-bottom:15px; margin-top:15px; width:75%;" />
 </div>
 
 ## 📋 Introdução
@@ -13,9 +13,11 @@ Para a documentação, utilizamos BDD e a biblioteca jest-cucumber para nos auxi
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você já instalou o node? Caso não tenha instalado, baixe o .pkg (Mac OS) | .deb (Linux/Ubuntu) e siga as instruções no link abaixo:
+* Você já instalou o node? Caso não tenha instalado, baixe .pkg **(Mac OS)** e siga as instruções no link abaixo:
 
   [Instalando o npm e node no Windows e no Mac](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac)
+
+* Caso esteja usando uma distribuição **Linux Ubuntu**, segue: 
 
   [Instalando o node no Linux Ubuntu](https://www.geeksforgeeks.org/installation-of-node-js-on-linux/)
 
@@ -69,6 +71,16 @@ Ao executar o **npm run full**, o relatório **allure-jest** abrirá automaticam
 |       ├── data
 |       ├── features
 |       └── steps
+```
+
+ℹ️ Os relatórios são gerados uma pasta acima **(diretório raíz, antes da sources)** e estão dispostos na pasta jest-reports. São eles:
+
+```
+╒ jest-allure (main report)
+╞ jest-coverage
+╞ jest-html-reporters
+╞ jest-simple-report (jest-report (default))
+╘ jest-stare
 ```
 
 ## 📫 Contribuindo para o template supertest-jest-cucumber
@@ -142,6 +154,22 @@ Fique à vontade para contribuir nesse projeto! Clone, crie sua branch e seja fe
   [![demo](https://github-readme-stats.vercel.app/api/top-langs/?username=devqasp&count_private=true&hide=c,c%2B%2B,css,html,java,php,powershell,python,xslt&layout=compact&theme=cobalt)](https://github.com/quan-to/)
   </div>
 </div>
+<br />
+
+## Links úteis
+
+[↳ Jest-Cucumber](https://github.com/bencompton/jest-cucumber)
+
+[↳ Jest-Cucumber-Fusion](https://github.com/b-yond-infinite-network/jest-cucumber-fusion)
+
+[↳ Projetos da comunidade fomentadora do Jest](https://github.com/jest-community)
+
+[↳ Projeto utilizando Supertest](https://github.com/rsaccoll/sample-supertest)
+
+[↳ Projeto utilizando Supertest + Jest](https://github.com/prasadmudedla/supertest-jest)
+
+[↳ Todos os relatórios integrados com Jest](https://www.npmtrends.com/jest-allure-vs-jest-html-reporter-vs-jest-html-reporters-vs-jest-junit-reporter-vs-jest-silent-reporter-vs-jest-stare-vs-mochawesome-report-generator)
+
 <br />
 
 [⬆ Voltar ao topo](#Template-Supertest-e-Jest-Cucumber)
