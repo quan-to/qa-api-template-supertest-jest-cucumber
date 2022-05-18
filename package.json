@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --debug --detectOpenHandles --expand --notify --verbose",
-    "full": "rm -rf jest-reports/ coverage/; jest --collect-coverage --color --detectOpenHandles --expand --notify --verbose; cd jest-reports/allure-jest/; allure generate && allure open"
+    "test": "rm -rf jest-reports/; jest --collect-coverage --color --debug --detectOpenHandles --expand --forceExit --notify --verbose",
+    "full": "rm -rf jest-reports/; jest --collect-coverage --color --expand --forceExit --notify --verbose; cd jest-reports/jest-allure/; allure generate && allure open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.10",
     "babel-jest": "^28.1.0",
     "jasmine": "^4.1.0",
     "jasmine-allure-reporter": "^1.0.2",

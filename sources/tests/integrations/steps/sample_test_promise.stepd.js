@@ -17,9 +17,9 @@ import {
 import {
   givenISendAMessage,
   whenTheMessageIsValidated
-} from './re_using.sd.js'
+} from './re_using.step.js'
 
-const feature = loadFeature(`tests/integrations/features/sample_test_promise.feature`)
+const feature = loadFeature(`sources/tests/integrations/features/sample_test_promise.feature`)
 
 defineFeature(feature, test => {
 

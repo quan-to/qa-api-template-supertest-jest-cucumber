@@ -1,6 +1,6 @@
-const url        = require(`../../../url/urls.json`)
-const input      = require(`../data/inputData.json`)
-const expected   = require(`../data/expectedData.json`)
+const url        = require(`../../../../config/urls.json`)
+const input      = require(`../../data/inputData.json`)
+const expected   = require(`../../data/expectedData.json`)
 const request    = require(`supertest`)
 const superagent = require(`superagent`)
 require(`superagent-retry`)(superagent)
@@ -9,7 +9,7 @@ const {
   Severity
 } = require('jest-allure/dist/Reporter')
 
-describe(`Test the Users API`, () => {
+describe(`Test the Users API - Project #001`, () => {
   
   test(`It Should respond with the User details`, async () => {
     //
